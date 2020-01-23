@@ -2,8 +2,11 @@
 Script to run in console of SharpSpring emails that are rendering strangely due to the "whiteSpace: pre-wrap" style being added to spans.
 
 <h3>The problem:</h3>
-<p>For unknown reasons spans in SharpSpring emails sometimes end up with style="white-space: pre-wrap" applied to them causing errors in some very specific versions of outlook (mostly web mail).</p>
-<span style="whiteSpace: pre-wrap">This is an example.</span>
+<p>For unknown reasons spans in SharpSpring emails sometimes end up with style="white-space: pre-wrap" applied to them causing errors in some very specific versions of outlook (mostly web mail). This results in indentations after the first word of a line/paragraph.</p>
+
+<h4>What it looks like:</h4>
+<p>This</p>
+<p>is a test.</p>
 
 <h3>How to use:</h3>
 <ol>
