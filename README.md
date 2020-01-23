@@ -3,7 +3,7 @@ Script to run in console of SharpSpring emails that are rendering strangely due 
 
 <h3>The problem:</h3>
 <p>For unknown reasons spans in SharpSpring emails sometimes end up with style="white-space: pre-wrap" applied to them causing errors in some very specific versions of outlook (mostly web mail).</p>
-<span style="white-space: pre-wrap">This is an example.</span>
+<span style="whiteSpace: pre-wrap">This is an example.</span>
 
 <h3>How to use:</h3>
 <ol>
